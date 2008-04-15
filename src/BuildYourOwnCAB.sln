@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 2 - HumbleDialogBox", 
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part3 - Supervising Controller", "Part3 - Supervising Controller", "{D9C0045A-8118-44CE-9B0B-27508FFBADE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 3 - Supervising Controller", "Part 3 - Supervising Controller", "{D9C0045A-8118-44CE-9B0B-27508FFBADE0}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -32,6 +32,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisingController", "Su
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisingController.Tests", "SupervisingController.Tests\SupervisingController.Tests.csproj", "{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 4 - Passive View", "Part 4 - Passive View", "{3C418196-BDAA-4AFD-A7E2-0AA850EBC931}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveView", "PassiveView\PassiveView.csproj", "{D61D848E-3089-4F64-8DAE-7689AEAE7035}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveView.Tests", "PassiveView.Tests\PassiveView.Tests.csproj", "{D17B3914-F419-4FC9-8C41-26449D0AF2DC}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -59,14 +77,24 @@ Global
 		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5C4A70A4-AD04-4878-97A5-E05905610042} = {94CD024D-95BB-4416-B3A4-713687AB9DAB}
 		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9} = {94CD024D-95BB-4416-B3A4-713687AB9DAB}
+		{5C4A70A4-AD04-4878-97A5-E05905610042} = {94CD024D-95BB-4416-B3A4-713687AB9DAB}
 		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E} = {D9C0045A-8118-44CE-9B0B-27508FFBADE0}
 		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA} = {D9C0045A-8118-44CE-9B0B-27508FFBADE0}
+		{D61D848E-3089-4F64-8DAE-7689AEAE7035} = {3C418196-BDAA-4AFD-A7E2-0AA850EBC931}
+		{D17B3914-F419-4FC9-8C41-26449D0AF2DC} = {3C418196-BDAA-4AFD-A7E2-0AA850EBC931}
 	EndGlobalSection
 EndGlobal
