@@ -1,0 +1,5 @@
+E:\OSS\BuildYourOwnCAB\src\PassiveView.Tests\bin\Debug\PassiveView.Tests.dll
+E:\OSS\BuildYourOwnCAB\src\PassiveView.Tests\bin\Debug\PassiveView.Tests.pdb
+E:\OSS\BuildYourOwnCAB\src\PassiveView.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\OSS\BuildYourOwnCAB\src\PassiveView.Tests\obj\Debug\PassiveView.Tests.dll
+E:\OSS\BuildYourOwnCAB\src\PassiveView.Tests\obj\Debug\PassiveView.Tests.pdb
